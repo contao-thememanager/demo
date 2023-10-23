@@ -31,9 +31,16 @@ the command line.
 When installing a fresh Contao application, select Contao Theme and upload following demo file:
 
 ![Select the contao theme option and upload the file](/docs/_images/install/cm/selectTheme.png "Select Theme")
-A: Select the option 'Contao Theme' and upload the following file
+
+
+Type in
+> contao-thememanager/demo
+
+within the searchbar (**B**) and install it from the recommended themes using version 4.13
+
 or
-B: Type in contao-thememanager/demo and install it from the extension catalogue
+
+select the option 'Contao Theme' and upload the following file
 
 | Contao Version |             Download              |
 |----------------|:---------------------------------:|
