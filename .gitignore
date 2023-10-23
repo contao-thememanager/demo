@@ -17,7 +17,8 @@
 !/system/config/
 /system/config/localconfig.php
 /system/config/tcpdf.php
-/var/
+/var/*
+!/var/backups/
 /web/
 /assets/
 /public/
