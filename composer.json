@@ -1,0 +1,51 @@
+{
+  "name": "contao-thememanager/demo",
+  "type": "contao-theme",
+  "description": "This is the official demo for the Contao ThemeManager.",
+  "version": "4.13",
+  "license": "AGPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Sebastian Zoglowek",
+      "homepage": "https://github.com/zoglo",
+      "role": "Developer"
+    },
+    {
+      "name": "Daniele Sciannimanica",
+      "homepage": "https://github.com/doishub",
+      "role": "Developer"
+    },
+    {
+      "name": "Contao ThemeManager",
+      "homepage": "https://contao-thememanager.com/"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/contao-thememanager/demo/issues",
+    "source": "https://github.com/contao-thememanager/demo",
+    "forum": "https://github.com/contao-thememanager/core/discussions",
+    "docs": "https://docs.contao-thememanager.com/"
+  },
+  "require": {
+    "contao-thememanager/core": "^2.0",
+    "contao/calendar-bundle": "^4.13",
+    "contao/comments-bundle": "^4.13",
+    "contao/conflicts": "*@dev",
+    "contao/faq-bundle": "^4.13",
+    "contao/listing-bundle": "^4.13",
+    "contao/manager-bundle": "4.13.*",
+    "contao/news-bundle": "^4.13",
+    "contao/newsletter-bundle": "^4.13"
+  },
+  "extra": {
+    "contao-component-dir": "assets"
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "@php vendor/bin/contao-setup"
+    ],
+    "post-update-cmd": [
+      "@php vendor/bin/contao-setup"
+    ]
+  }
+}

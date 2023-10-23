@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archives>
+  <archive identifier="gBackground">
+    <field title="id">50</field>
+    <field title="title">Background</field>
+    <field title="identifier">gBackground</field>
+    <field title="groupAlias">Global</field>
+    <field title="sorting">500</field>
+    <children>
+      <child alias="image">
+        <field title="pid">50</field>
+        <field title="title">Image</field>
+        <field title="alias">image</field>
+        <field title="cssClasses">a:1:{i:0;a:3:{s:3:"key";s:10:"bgi-emblem";s:5:"value";s:9:"BG-emblem";s:4:"path";s:34:"files/theme/backgrounds/emblem.svg";}}</field>
+      </child>
+    </children>
+  </archive>
+  <archive identifier="cBackground">
+    <field title="id">1130</field>
+    <field title="title">Background</field>
+    <field title="identifier">cBackground</field>
+    <field title="groupAlias">Component</field>
+    <field title="sorting">3300</field>
+    <children>
+      <child alias="image">
+        <field title="pid">1130</field>
+        <field title="title">Image</field>
+        <field title="alias">image</field>
+        <field title="cssClasses">a:1:{i:0;a:3:{s:3:"key";s:10:"bgi-emblem";s:5:"value";s:9:"BG-emblem";s:4:"path";s:34:"files/theme/backgrounds/emblem.svg";}}</field>
+      </child>
+    </children>
+  </archive>
+  <archive identifier="eBackground">
+    <field title="id">2120</field>
+    <field title="title">Background</field>
+    <field title="identifier">eBackground</field>
+    <field title="groupAlias">Element</field>
+    <field title="sorting">5200</field>
+    <children>
+      <child alias="image">
+        <field title="pid">2120</field>
+        <field title="title">Image</field>
+        <field title="alias">image</field>
+        <field title="cssClasses">a:1:{i:0;a:3:{s:3:"key";s:12:"i-bgi-emblem";s:5:"value";s:9:"BG-emblem";s:4:"path";s:34:"files/theme/backgrounds/emblem.svg";}}</field>
+      </child>
+    </children>
+  </archive>
+  <archive identifier="cLayout">
+    <field title="id">1000</field>
+    <field title="title">Layout</field>
+    <field title="identifier">cLayout</field>
+    <field title="groupAlias">Component</field>
+    <field title="sorting">2000</field>
+    <children>
+      <child alias="imageTextWidth">
+        <field title="pid">1000</field>
+        <field title="title">Width</field>
+        <field title="alias">imageTextWidth</field>
+        <field title="cssClasses">a:7:{i:0;a:2:{s:3:"key";s:11:"it-width-25";s:5:"value";s:3:"25%";}i:1;a:2:{s:3:"key";s:11:"it-width-33";s:5:"value";s:3:"33%";}i:2;a:2:{s:3:"key";s:11:"it-width-38";s:5:"value";s:3:"38%";}i:3;a:2:{s:3:"key";s:11:"it-width-40";s:5:"value";s:3:"40%";}i:4;a:2:{s:3:"key";s:11:"it-width-50";s:5:"value";s:3:"50%";}i:5;a:2:{s:3:"key";s:11:"it-width-80";s:5:"value";s:3:"80%";}i:6;a:2:{s:3:"key";s:12:"it-width-100";s:5:"value";s:4:"100%";}}</field>
+      </child>
+    </children>
+  </archive>
+  <archive identifier="cArticleHeight">
+    <field title="id">1020</field>
+    <field title="title">Article-Height</field>
+    <field title="identifier">cArticleHeight</field>
+    <field title="groupAlias">Component</field>
+    <field title="sorting">2200</field>
+    <children>
+      <child alias="height">
+        <field title="pid">1020</field>
+        <field title="title">Height</field>
+        <field title="alias">height</field>
+        <field title="cssClasses">a:3:{i:0;a:2:{s:3:"key";s:7:"a-vh-50";s:5:"value";s:4:"50vh";}i:1;a:2:{s:3:"key";s:7:"a-vh-75";s:5:"value";s:4:"75vh";}i:2;a:2:{s:3:"key";s:8:"a-vh-100";s:5:"value";s:5:"100vh";}}</field>
+        <field title="extendArticle">1</field>
+        <field title="description">Here you can choose the article height.</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="sorting">50</field>
+      </child>
+    </children>
+  </archive>
+  <archive identifier="eImage">
+    <field title="id">2070</field>
+    <field title="title">Image</field>
+    <field title="identifier">eImage</field>
+    <field title="groupAlias">Element</field>
+    <field title="sorting">4700</field>
+    <children>
+      <child alias="aspectRatio">
+        <field title="pid">2070</field>
+        <field title="title">Aspect-Ratio</field>
+        <field title="alias">aspectRatio</field>
+        <field title="cssClasses">a:6:{i:0;a:2:{s:3:"key";s:6:"ar-4-5";s:5:"value";s:3:"4:5";}i:1;a:2:{s:3:"key";s:6:"ar-1-1";s:5:"value";s:3:"1:1";}i:2;a:2:{s:3:"key";s:6:"ar-4-3";s:5:"value";s:3:"4:3";}i:3;a:2:{s:3:"key";s:6:"ar-3-2";s:5:"value";s:3:"3:2";}i:4;a:2:{s:3:"key";s:8:"ar-16-10";s:5:"value";s:5:"16:10";}i:5;a:2:{s:3:"key";s:7:"ar-16-9";s:5:"value";s:4:"16:9";}}</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:7:{i:0;s:15:"rsce_image_text";i:1;s:15:"rsce_image_list";i:2;s:20:"rsce_image_text_list";i:3;s:5:"image";i:4;s:7:"gallery";i:5;s:8:"download";i:6;s:9:"downloads";}</field>
+        <field title="extendModule">1</field>
+        <field title="modules">a:6:{i:0;s:11:"randomImage";i:1;s:8:"newslist";i:2;s:9:"eventlist";i:3;s:7:"faqlist";i:4;s:7:"faqpage";i:5;s:18:"recommendationlist";}</field>
+        <field title="description">Here you can choose an aspect-ratio.</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="sorting">150</field>
+      </child>
+    </children>
+  </archive>
+</archives>
