@@ -55,7 +55,7 @@ PHP and webserver setup.
 
 1. Run `composer create-project contao-thememanager/demo:4.13 your-new-website`
 2. Connect the database e.g. through `DATABASE_URL` in your `.env.local` file.
-2. Import the database backup using `php vendor/bin/contao-console contao:backup:restore`
+3. Import the database backup using `php vendor/bin/contao-console contao:backup:restore`
 
 ## Documentation
 A german documentation (WIP - work in progress) can be found by using the following link:
