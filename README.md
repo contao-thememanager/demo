@@ -42,9 +42,9 @@ or
 
 select the option 'Contao Theme' and upload the following file
 
-| Contao Version |             Download              |
-|----------------|:---------------------------------:|
-| `4.13`         | [💾](/docs/demo/ctm-demo_413.zip) |
+| Contao Version |           Download            |
+|----------------|:-----------------------------:|
+| `4.13`         | [💾](/docs/demo/ctm-demo.zip) |
 
 
 ![Check the dependencies and install the theme](/docs/_images/install/cm/dependencies.png "Composer dependencies")
