@@ -36,7 +36,7 @@ When installing a fresh Contao application, select Contao Theme and upload follo
 Type in
 > contao-thememanager/demo
 
-within the searchbar (**B**) and install it from the recommended themes using version 4.13
+within the searchbar (**B**) and install it from the recommended themes using the latest version (5.2)
 
 or
 
@@ -44,7 +44,7 @@ select the option 'Contao Theme' and upload the following file
 
 | Contao Version |           Download            |
 |----------------|:-----------------------------:|
-| `4.13`         | [💾](/docs/demo/ctm-demo.zip) |
+| `5.2`          | [💾](/docs/demo/ctm-demo.zip) |
 
 
 ![Check the dependencies and install the theme](/docs/_images/install/cm/dependencies.png "Composer dependencies")
@@ -60,9 +60,10 @@ This repository functions as a _Composer project_. You can install a full Contao
 `create-project` command. We're assuming here you are familiar with the command line and Composer and have a functioning 
 PHP and webserver setup.
 
-1. Run `composer create-project contao-thememanager/demo:4.13 your-new-website`
+1. Run `composer create-project contao-thememanager/demo:5.2 your-new-website`
 2. Connect the database e.g. through `DATABASE_URL` in your `.env.local` file.
 3. Import the database backup using `php vendor/bin/contao-console contao:backup:restore`
+4. Create an admin account using `php vendor/bin/contao-console contao:user:create`
 
 ## Documentation
 A german documentation (WIP - work in progress) can be found by using the following link:
