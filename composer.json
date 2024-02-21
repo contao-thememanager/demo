@@ -2,7 +2,7 @@
   "name": "contao-thememanager/demo",
   "type": "contao-theme",
   "description": "This is the official demo for the Contao ThemeManager.",
-  "version": "5.2",
+  "version": "5.3",
   "license": "AGPL-3.0-or-later",
   "authors": [
     {
