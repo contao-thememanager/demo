@@ -1,8 +1,2 @@
-.bgi-emblem {
-  --bgi: url(/files/theme/backgrounds/emblem.svg);
-}
-.i-bgi-emblem {
-  --i-bgi: url(/files/theme/backgrounds/emblem.svg);
-}
-
+.bgi-emblem{--bgi:url(/files/theme/backgrounds/emblem.svg)}.i-bgi-emblem{--i-bgi:url(/files/theme/backgrounds/emblem.svg)}
 /** Compiled with Theme Compiler */
